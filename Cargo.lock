@@ -346,6 +346,7 @@ dependencies = [
  "datafusion-expr",
  "mimalloc",
  "pyo3",
+ "pyo3-build-config",
  "rand 0.7.3",
  "tokio",
  "uuid",
