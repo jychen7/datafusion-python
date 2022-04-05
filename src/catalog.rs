@@ -38,6 +38,7 @@ pub(crate) struct PyDatabase {
 }
 
 #[pyclass(name = "Table", module = "datafusion", subclass)]
+#[derive(Clone)]
 pub struct PyTable {
     table: Arc<dyn TableProvider>,
 }
